@@ -20,6 +20,7 @@ A Python 3.7 environment fit for Machine Learning and Deep Learning practice:
 ![image](https://user-images.githubusercontent.com/93019319/165269474-adf699f6-ef39-413f-9cb3-7cc46bd2d1c4.png)
 ![image](https://user-images.githubusercontent.com/93019319/165270053-d4cf0476-268d-416b-afe1-dcca7a595afb.png)
 ![image](https://user-images.githubusercontent.com/93019319/165270305-33fb4f41-83e7-4006-9424-16f5cf46c13f.png)
+![image](https://user-images.githubusercontent.com/93019319/165290414-82d6ff4c-bb32-4f4b-8662-681ebf428d12.png)
 
 
 Some notes
