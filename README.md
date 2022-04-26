@@ -1,5 +1,5 @@
 # PLUS_SoftwareDev2022_environment
-For PLUS Software Dev class, __A2_conda update__ <br><br>
+For [PLUS Software Development](https://github.com/cmmarellano/PLUS_softwaredev_2022), __A2_conda update__ <br><br>
 
 Task: Go through the process of creating an environment from the requirements file from someone else in the course, modify the environment, and share the changes <br>
 
