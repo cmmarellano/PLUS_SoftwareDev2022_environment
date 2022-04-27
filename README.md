@@ -25,7 +25,10 @@ A Python 3.7 environment fit for Machine Learning and Deep Learning practice:
 
 Some notes
 - GDAL will require a compatible Microsoft C++ Build Tools. Download from https://visualstudio.microsoft.com/downloads/
-- Need to set-up ipykernel and nb_conda_kernels (I want to be able to use this new virtual env on Jupyter Notebook)
+- Need to set-up ipykernel and nb_conda_kernels (I want to be able to use this new virtual env on Jupyter Notebook) <br><br><br>
+
+
+
 
 
 
