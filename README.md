@@ -33,6 +33,9 @@ Some notes
 ------
 
 
+
+
+Recreating the environment.yml (geoenv) 
 ```
 (Py37_mldl_clone) C:\Users\Arellano\Documents\GitHub\PLUS_softwaredev_2022-3>conda env create -f environment.yml
 Collecting package metadata (repodata.json): done
@@ -193,3 +196,7 @@ zstd                      1.4.9                h19a0ad4_0
 (geoenv) C:\Users\Arellano\Documents\GitHub\PLUS_softwaredev_2022-3>conda install conda-forge::rasterio
 
 ```
+
+Notes
+- Rasterio installation (via conda forge channel) prompted multiple conflicts. One such reason could be that rasterio [works with Python versions 3.6 to 3.9](https://pypi.org/project/rasterio/)
+
