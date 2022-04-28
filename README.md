@@ -66,7 +66,7 @@ Some notes
 
 <br><br>
 
-#### Scripts when recreating the environment.yml 
+#### Script when recreating the environment.yml 
 ```
 (Py37_mldl_clone) C:\Users\Arellano\Documents\GitHub\PLUS_softwaredev_2022-3>conda env create -f environment.yml
 Collecting package metadata (repodata.json): done
