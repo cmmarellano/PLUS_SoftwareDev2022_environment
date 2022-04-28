@@ -35,10 +35,11 @@ Some notes
 ### 2. Commit on others environment.yml
 ------
 
+- Added scipy to geoenv from repo (https://github.com/cmmarellano/PLUS_softwaredev_2022-3)
+- Pull request for edit: [environment_fromCarla.yml)[https://github.com/cmmarellano/PLUS_softwaredev_2022-3/blob/main/environment_fromCarla.yml]
 
 
-
-Recreating the environment.yml (geoenv) 
+Scripts when recreating the environment.yml 
 ```
 (Py37_mldl_clone) C:\Users\Arellano\Documents\GitHub\PLUS_softwaredev_2022-3>conda env create -f environment.yml
 Collecting package metadata (repodata.json): done
@@ -247,6 +248,4 @@ operable program or batch file.
 
 ```
 
-Notes
-- Rasterio installation (via conda forge channel) prompted multiple conflicts. One such reason could be that rasterio [works with Python versions 3.6 to 3.9](https://pypi.org/project/rasterio/)
 
