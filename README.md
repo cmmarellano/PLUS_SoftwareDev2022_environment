@@ -1,18 +1,44 @@
 # PLUS_SoftwareDev2022_environment
 For [PLUS Software Development](https://github.com/cmmarellano/PLUS_softwaredev_2022), __A2_conda update__ <br><br>
 
-Task: Go through the process of creating an environment from the requirements file from someone else in the course, modify the environment, and share the changes <br>
+Task: Go through the process of creating an environment and recreating an environment from someone else in the course, modify the environment, and share the changes <br>
+
+Includes:
+- environment.yml
+- commit on other's env <br><br>
+
+
 
 ### 1. Environment.yml
 ----
 [Py37_mldl.yml](https://github.com/cmmarellano/PLUS_SoftwareDev2022_environment/blob/main/Py37_mldl.yml)
 
-A Python 3.7 environment fit for Machine Learning and Deep Learning practice:
+A Python 3.7 environment fit for Machine Learning and Deep Learning practice. Includes:
 - numpy
 - GDAL
 - Tensorflow
 - sci-kit 
 
+
+```
+#To create an environment with a specific version of Python:
+
+conda create -n myenv python=3.7
+
+
+# For installed packages:
+conda install scipy
+conda install -c anaconda scikit-learn
+conda install -c anaconda pandas
+conda install -c anaconda numpy
+conda install -c anaconda statsmodels 
+conda install -c anaconda h2o
+conda install -c conda-forge pillow
+
+conda install gdal
+conda install tensorflow
+conda install matplotlib
+```
 
 
 #### Some screenshots while making this environment
@@ -38,8 +64,9 @@ Some notes
 - Added scipy to geoenv from repo (https://github.com/cmmarellano/PLUS_softwaredev_2022-3)
 - Pull request for edit: [environment_fromCarla.yml](https://github.com/cmmarellano/PLUS_softwaredev_2022-3/blob/main/environment_fromCarla.yml)
 
+<br><br>
 
-Scripts when recreating the environment.yml 
+#### Scripts when recreating the environment.yml 
 ```
 (Py37_mldl_clone) C:\Users\Arellano\Documents\GitHub\PLUS_softwaredev_2022-3>conda env create -f environment.yml
 Collecting package metadata (repodata.json): done
