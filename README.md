@@ -53,7 +53,7 @@ Some notes
 - GDAL will require a compatible Microsoft C++ Build Tools. Download from https://visualstudio.microsoft.com/downloads/
 - Need to set-up ipykernel and nb_conda_kernels (I want to be able to use this new virtual env on Jupyter Notebook) 
 - Python 3.7 was installed. Rasterio [works with Python versions 3.6 to 3.9](https://pypi.org/project/rasterio/) 
-- "Python-geospatial" package [https://github.com/giswqs/python-geospatial](https://github.com/giswqs/python-geospatial) , is recommended for a wide-range collection of rs, gis, mapping and ml applications. However, I can't install it properly on my PC. (stuck at solving environments) So I opted to just manually install what I would need for this environment.  <br><br><br>
+- "Python-geospatial" package [https://github.com/giswqs/python-geospatial](https://github.com/giswqs/python-geospatial) , is recommended for a wide-range collection of rs, gis, mapping and ml applications. However, I can't install it properly on my PC. (stuck at solving environments; crashing my PC) So I opted to just manually install what I would need for this environment.  <br><br><br>
 
 
 
