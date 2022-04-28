@@ -23,7 +23,7 @@ A Python 3.7 environment fit for Machine Learning and Deep Learning practice. In
 ```
 #To create an environment with a specific version of Python:
 
-conda create -n myenv python=3.7
+conda create -n Py37_mldl python=3.7
 
 
 # For installed packages:
