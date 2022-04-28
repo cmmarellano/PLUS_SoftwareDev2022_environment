@@ -40,7 +40,7 @@ conda install tensorflow
 conda install matplotlib
 ```
 
-
+<br>
 #### Some screenshots while making this environment
 
 ![image](https://user-images.githubusercontent.com/93019319/165269474-adf699f6-ef39-413f-9cb3-7cc46bd2d1c4.png)
@@ -61,7 +61,7 @@ Some notes
 ### 2. Commit on others environment.yml
 ------
 
-- Added scipy to geoenv from repo (https://github.com/cmmarellano/PLUS_softwaredev_2022-3)
+- Added scipy to "geoenv" from repo: (https://github.com/cmmarellano/PLUS_softwaredev_2022-3)
 - Pull request for edit: [environment_fromCarla.yml](https://github.com/cmmarellano/PLUS_softwaredev_2022-3/blob/main/environment_fromCarla.yml)
 
 <br><br>
