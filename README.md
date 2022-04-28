@@ -51,8 +51,8 @@ conda install matplotlib
 
 Some notes
 - GDAL will require a compatible Microsoft C++ Build Tools. Download from https://visualstudio.microsoft.com/downloads/
-- Need to set-up ipykernel and nb_conda_kernels (I want to be able to use this new virtual env on Jupyter Notebook) <br><br><br>
-- Python 3.7 was installed. Rasterio [works with Python versions 3.6 to 3.9](https://pypi.org/project/rasterio/)
+- Need to set-up ipykernel and nb_conda_kernels (I want to be able to use this new virtual env on Jupyter Notebook) 
+- Python 3.7 was installed. Rasterio [works with Python versions 3.6 to 3.9](https://pypi.org/project/rasterio/) <br><br><br>
 
 
 
