@@ -26,7 +26,7 @@ A Python 3.7 environment fit for Machine Learning and Deep Learning practice:
 Some notes
 - GDAL will require a compatible Microsoft C++ Build Tools. Download from https://visualstudio.microsoft.com/downloads/
 - Need to set-up ipykernel and nb_conda_kernels (I want to be able to use this new virtual env on Jupyter Notebook) <br><br><br>
-
+- Python 3.7 was installed. Rasterio [works with Python versions 3.6 to 3.9](https://pypi.org/project/rasterio/)
 
 
 
@@ -192,11 +192,58 @@ xz                        5.2.5                h62dcd97_0
 zlib                      1.2.11               hbd8134f_5
 zstd                      1.4.9                h19a0ad4_0
 
-(geoenv) C:\Users\Arellano\Documents\GitHub\PLUS_softwaredev_2022-3>conda config --add channels conda-forge
 
-(geoenv) C:\Users\Arellano\Documents\GitHub\PLUS_softwaredev_2022-3>conda config --set channel_priority strict
+(geoenv) C:\Users\Arellano\Documents\GitHub\PLUS_softwaredev_2022>conda install scipy
+Collecting package metadata (current_repodata.json): done
+Solving environment: done
 
-(geoenv) C:\Users\Arellano\Documents\GitHub\PLUS_softwaredev_2022-3>conda install conda-forge::rasterio
+## Package Plan ##
+
+  environment location: C:\Users\Arellano\.conda\envs\geoenv
+
+  added / updated specs:
+    - scipy
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    ca-certificates-2022.3.29  |       haa95532_1         122 KB
+    scipy-1.7.3                |  py310h6d2d95c_0        14.0 MB
+    ------------------------------------------------------------
+                                           Total:        14.1 MB
+
+The following NEW packages will be INSTALLED:
+
+  scipy              pkgs/main/win-64::scipy-1.7.3-py310h6d2d95c_0
+
+The following packages will be UPDATED:
+
+  ca-certificates                      2022.3.29-haa95532_0 --> 2022.3.29-haa95532_1
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+ca-certificates-2022 | 122 KB    | ############################################################################ | 100%
+scipy-1.7.3          | 14.0 MB   | ############################################################################ | 100%
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+
+(geoenv) C:\Users\Arellano\Documents\GitHub\PLUS_softwaredev_2022>cd ..
+
+(geoenv) C:\Users\Arellano\Documents\GitHub>C:\Users\Arellano\Documents\GitHub\PLUS_softwaredev_2022-3
+'C:\Users\Arellano\Documents\GitHub\PLUS_softwaredev_2022-3' is not recognized as an internal or external command,
+operable program or batch file.
+
+(geoenv) C:\Users\Arellano\Documents\GitHub>cd C:\Users\Arellano\Documents\GitHub\PLUS_softwaredev_2022-3
+
+(geoenv) C:\Users\Arellano\Documents\GitHub\PLUS_softwaredev_2022-3>conda env export > environment_fromCarla.yml
+
+
 
 ```
 
