@@ -36,7 +36,7 @@ Some notes
 ------
 
 - Added scipy to geoenv from repo (https://github.com/cmmarellano/PLUS_softwaredev_2022-3)
-- Pull request for edit: [environment_fromCarla.yml)[https://github.com/cmmarellano/PLUS_softwaredev_2022-3/blob/main/environment_fromCarla.yml]
+- Pull request for edit: [environment_fromCarla.yml](https://github.com/cmmarellano/PLUS_softwaredev_2022-3/blob/main/environment_fromCarla.yml)
 
 
 Scripts when recreating the environment.yml 
